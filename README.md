@@ -5,7 +5,7 @@
 ### Important Links:
 
 
-- [StayVista Part 1](https://github.com/shakilahmedatik/b9-stayVista-part1)
+- [StayVista Part 1]
 - [StayVista Part 2](https://github.com/shakilahmedatik/b9-stayVista-part2)
 - [StayVista Part 3](https://github.com/shakilahmedatik/b9-stayVista-part3)
 - [StayVista Part 4 (Complete)](https://github.com/shakilahmedatik/b9-stayVista-part4)
