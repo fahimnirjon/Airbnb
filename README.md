@@ -10,7 +10,7 @@
 - [StayVista Part 3]
 - [StayVista Part 4 (Complete)]
 - [StayVista Resources]
-- [Project Requirement Doc](https://docs.google.com/document/d/1rzueKvZTinMb3XY7cuDNH0S0d_l8CflG1H95VUi2Dto/edit?usp=sharing)
+- [Project Requirement Doc]
 
   
 ## Topics Covered in each session:
