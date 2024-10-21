@@ -8,7 +8,6 @@
 - [StayVista Part 1]
 - [StayVista Part 2]
 - [StayVista Part 3]
-- [StayVista Part 4 (Complete)]
 
   
 ## Topics Covered in each session:
