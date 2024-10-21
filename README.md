@@ -5,7 +5,7 @@
 ### Important Links:
 
 
-- StayVista Part
+- StayVista Par
 
   
 ## Topics Covered in each session:
