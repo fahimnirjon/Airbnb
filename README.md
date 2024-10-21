@@ -1,4 +1,4 @@
-# stayVista-start
+# stayVista-star
 
 - [Live Site]
 
