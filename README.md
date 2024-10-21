@@ -6,7 +6,6 @@
 
 
 - [StayVista Part 1]
-- [StayVista Part 2]
 
   
 ## Topics Covered in each session:
