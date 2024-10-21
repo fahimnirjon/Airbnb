@@ -3,7 +3,6 @@
 - [Live Site]
 
 ### Important Links:
-
 ## Topics Covered in each session:
 
 **Part 1 (17/05/2024):**
