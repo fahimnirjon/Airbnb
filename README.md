@@ -1,4 +1,4 @@
-# stayVist
+# stayVis
 
 - [Live Site]
 
