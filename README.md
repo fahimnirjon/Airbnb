@@ -5,7 +5,7 @@
 ### Important Links:
 
 
-- StayVi
+- StayV
 
   
 ## Topics Covered in each session:
