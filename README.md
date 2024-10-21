@@ -1,4 +1,4 @@
-# stayVista-starter-temp
+# stayVista-starter-tem
 
 - [Live Site]
 
