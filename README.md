@@ -5,7 +5,7 @@
 ### Important Links:
 
 
-- Sta
+- St
 
   
 ## Topics Covered in each session:
