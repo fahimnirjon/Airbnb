@@ -1,4 +1,4 @@
-# stayVista-starter-templat
+# stayVista-starter-templa
 
 - [Live Site]
 
