@@ -10,7 +10,6 @@
 - [StayVista Part 3]
 - [StayVista Part 4 (Complete)]
 - [StayVista Resources]
-- [Project Requirement Doc]
 
   
 ## Topics Covered in each session:
