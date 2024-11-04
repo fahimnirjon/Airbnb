@@ -13,7 +13,7 @@
 - TanStack Query Implementation.
 - Room Details Page.
 - react-date-range package implementation in Room Details Page.
-- Registration Page & Functi
+- Registration Page & Funct
 
 **Part 2 (20/05/2024):**
 - Dashboard Layout
