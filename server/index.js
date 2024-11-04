@@ -3,7 +3,7 @@ const app = express()
 require('dotenv').config()
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
-const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb')
+const { MongoClient, ServerApiVersion, ObjectId, Timestamp } = require('mongodb')
 const jwt = require('jsonwebtoken')
 
 const port = process.env.PORT || 8000
@@ -50,6 +50,7 @@ async function run() {
 
 // Database
       const roomsCollection = client.db('Airbnb').collection('rooms');
+      const usersCollection = client.db('Airbnb').collection('users');
 
     // auth related api
     app.post('/jwt', async (req, res) => {
@@ -75,6 +76,13 @@ async function run() {
       res.send(result);
     })
 
+    // save a romm
+    app.post('/room', async(req, res)=>{
+      const roomData = req.body;
+      const result= await roomsCollection.insertOne(roomData);
+      res.send(result);
+    })
+
     // single room
     app.get('/room/:id', async(req, res)=>{
       const id = req.params.id;
@@ -84,6 +92,56 @@ async function run() {
     })
     
 
+    // get all rooms fro host
+    app.get('/my-listings/:email', async(req, res)=>{
+      const email = req.params.email;
+      let query = { 'host.email': email };
+      const result = await roomsCollection.find(query).toArray();
+      res.send(result);
+    })
+
+    // delete a room 
+    app.delete('/room/:id', async(req, res)=>{
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const result = await roomsCollection.deleteOne(query);
+      res.send(result);
+    })
+
+    // save user data
+    app.put('/user', async(req, res)=>{
+      const user = req.body;
+      const query = {email: user?.email};
+      // check if the user already exists
+      const isExists = await usersCollection.findOne(query)
+      if(isExists) {
+        if(user.status === "Requested"){
+          const result = await usersCollection.updateOne(query, {
+            $set: {status: user?.status},
+          })
+          return res.send(result)
+        }else {
+          return res.send(isExists);
+      }
+    }
+         
+      // otherwise create and save
+      const options = {upsert: true};
+      const updateDoc = {
+        $set:{
+          ...user,
+          Timestamp: Date.now(),
+        },
+      }
+      const result = await usersCollection.updateOne(query, updateDoc, options)
+      res.send(result)
+    })
+
+    // get all user data from db 
+    app.get('/users', async(req,res)=>{
+      const result = await usersCollection.find().toArray();
+      res.send(result);
+    })
 
     // Logout
     app.get('/logout', async (req, res) => {
