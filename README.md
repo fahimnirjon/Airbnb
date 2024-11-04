@@ -14,7 +14,7 @@
 - Room Details Page.
 - react-date-range package implementation in Room Details Page.
 - Registration Page & Functionality.
-- Imag
+- Im
 
 **Part 2 (20/05/2024):**
 - Dashboard Layout
