@@ -10,6 +10,12 @@ import DashboardLayout from '../layouts/DashboardLayout'
 import Statistics from '../pages/Dashboard/Common/Statistics'
 import Mylistings from '../pages/Dashboard/Hosts/Mylistings'
 import RoomAdd from '../pages/Dashboard/Hosts/RoomAdd'
+import Profile from '../pages/Dashboard/Common/Profile'
+import ManageUsers from '../pages/Dashboard/Admin/ManageUsers'
+import AdminRoute from './AdminRoute'
+import HostRoute from './HostRoute'
+import MyBookings from '../pages/Dashboard/Guests/MyBookings'
+import ManageBookings from '../pages/Dashboard/Hosts/ManageBookings'
 
 export const router = createBrowserRouter([
   {
@@ -33,19 +39,59 @@ export const router = createBrowserRouter([
   { path: '/signup', element: <SignUp /> },
   {
     path: '/dashboard',
-    element: <DashboardLayout></DashboardLayout>,
+    element: <PrivateRoute>
+      <DashboardLayout></DashboardLayout>
+    </PrivateRoute>,
     children: [
       {
         index: true,
-        element: <Statistics/>,
+        element: <PrivateRoute>
+          <Statistics/>
+        </PrivateRoute>,
       },
       {
          path: 'add-room',
-         element: <RoomAdd />
+         element: <PrivateRoute>
+          <HostRoute>
+          <RoomAdd />
+          </HostRoute>
+         </PrivateRoute>
       },
       {
          path: 'my-listings',
-         element: <Mylistings/>
+         element: <PrivateRoute>
+          <HostRoute>
+          <Mylistings/>
+          </HostRoute>
+         </PrivateRoute>
+      },
+      {
+         path: 'manage-bookings',
+         element: <PrivateRoute>
+          <HostRoute>
+          <ManageBookings/>
+          </HostRoute>
+         </PrivateRoute>
+      },
+      {
+         path: 'my-bookings',
+         element: <PrivateRoute>
+          
+          <MyBookings/>
+          
+         </PrivateRoute>
+      },
+      {
+         path: 'manage-users',
+         element: <PrivateRoute>
+          <AdminRoute>
+          <ManageUsers/>
+          </AdminRoute>
+         </PrivateRoute>
+      },
+      {
+         path: 'profile',
+         element: <Profile/>
       },
     ]
   }
