@@ -12,7 +12,7 @@
 - Category Filter section in Homepage.
 - TanStack Query Implementation.
 - Room Details Page.
-- react-date-ra
+- react-date-r
 
 **Part 2 (20/05/2024):**
 - Dashboard Layout
