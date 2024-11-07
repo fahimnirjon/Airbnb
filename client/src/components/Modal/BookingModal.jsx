@@ -103,4 +103,3 @@ BookingModal.propTypes = {
 };
 
 export default BookingModal;
- 
