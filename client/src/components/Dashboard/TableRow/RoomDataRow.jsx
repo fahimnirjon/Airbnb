@@ -78,3 +78,8 @@ RoomDataRow.propTypes = {
 };
 
 export default RoomDataRow;
+
+
+RoomDataRow.propTypes = {
+  handleDelete: PropTypes.func
+}
