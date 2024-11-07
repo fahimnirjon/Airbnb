@@ -5,17 +5,21 @@ import LoadingSpinner from "../../../components/Shared/LoadingSpinner";
 import UserDataRow from "../../../components/Dashboard/TableRow/UserDataRow";
 
 const ManageUsers = () => {
-    const axiosSecure = useAxiosSecure();
-    // fetch user data
-    const { data : users =[], isLoading, refetch } = useQuery({
-        queryKey: [ 'users'],
-        queryFn: async ()=>{
-            const {data} = await axiosSecure.get(`/users`)
-            return data;
-        },
-    })
+  const axiosSecure = useAxiosSecure();
+  // fetch user data
+  const {
+    data: users = [],
+    isLoading,
+    refetch,
+  } = useQuery({
+    queryKey: ["users"],
+    queryFn: async () => {
+      const { data } = await axiosSecure.get(`/users`);
+      return data;
+    },
+  });
 
-    if(isLoading) return <LoadingSpinner/>
+  if (isLoading) return <LoadingSpinner />;
 
   return (
     <>
@@ -57,9 +61,13 @@ const ManageUsers = () => {
                   </tr>
                 </thead>
                 <tbody>
-
-                    {users.map(user=> <UserDataRow key={user?._id} user={user} refetch={refetch} />)}
-
+                  {users.map((user) => (
+                    <UserDataRow
+                      key={user?._id}
+                      user={user}
+                      refetch={refetch}
+                    />
+                  ))}
                 </tbody>
               </table>
             </div>
