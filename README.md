@@ -11,8 +11,7 @@
 - Setup server side & define get route for fetching all rooms data from db.
 - Category Filter section in Homepage.
 - TanStack Query Implementation.
-- Room Details Page.
-
+- Room Details Page
 
 **Part 2 (20/05/2024):**
 - Dashboard Layout
