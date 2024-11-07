@@ -10,8 +10,7 @@
 - Setup MongoDB and upload fake json data in MongoDB.
 - Setup server side & define get route for fetching all rooms data from db.
 - Category Filter section in Homepage.
-- TanStack Query Implementation.
-
+- TanStack Query Implementation
 
 **Part 2 (20/05/2024):**
 - Dashboard Layout
