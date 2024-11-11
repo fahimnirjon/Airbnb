@@ -32,7 +32,7 @@
 **Part 4 (28/05/2024):**
 - Payment system (Stripe).
 - Email Sending (NodeMailer).
-- Statistics Page in Dashbo
+- Statistics Page in Dashb
 
 ### Packages and api docs used in this project:
 
