@@ -30,7 +30,7 @@
 - Booking modal and routes in dasboard.
 
 **Part 4 (28/05/2024):**
-- Payment sys
+- Payment sy
 
 ### Packages and api docs used in this project:
 
