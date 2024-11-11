@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000;
 
 // middleware
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: ["http://localhost:5173", "http://localhost:5174", "https://comforth-be903.web.app"],
   credentials: true,
   optionSuccessStatus: 200,
 };
