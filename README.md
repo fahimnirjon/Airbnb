@@ -33,7 +33,7 @@
 - Payment system (Stripe).
 - Email Sending (NodeMailer).
 - Statistics Page in Dashboard.
-- Update Room Functionality
+- Update Room Functionalit
 
 ### Packages and api docs used in this project:
 
