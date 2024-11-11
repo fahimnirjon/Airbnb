@@ -31,7 +31,6 @@
 
 **Part 4 (28/05/2024):**
 
-
 ### Packages and api docs used in this project:
 
 - [Stripe Website](https://stripe.com/)
