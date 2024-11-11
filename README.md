@@ -2,7 +2,7 @@
 
 ### Important Links:
 
-## Topics Covered in each sessi
+## Topics Covered in each sess
 
 **Part 1 (17/05/2024):**
 - Introduction & Project overview.
