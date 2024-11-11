@@ -2,7 +2,7 @@
 
 ### Important Links:
 
-## Topics Covered in 
+## Topics Covered in
 
 **Part 1 (17/05/2024):**
 - Introduction & Project overview.
