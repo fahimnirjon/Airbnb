@@ -4,7 +4,7 @@
 
 ## Topics--
 
-**Part 1 (17/05/202):**
+**Part 1 (17/05/20):**
 - Introduction & Project overview.
 - Starter Template Setup
 - Setup MongoDB and upload fake json data in MongoDB.
