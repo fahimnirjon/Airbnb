@@ -50,6 +50,7 @@ const AddRoomForm = ({dates, handleDates, handleSubmit, imageView , imageText, h
                 onChange={(item) =>handleDates(item)}
                 moveRangeOnFirstSelection={false}
                 ranges= {[dates]}
+                minDate={new Date()}
               />
             </div>
           </div>

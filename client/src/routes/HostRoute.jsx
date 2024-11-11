@@ -1,23 +1,17 @@
-import React from 'react';
-import useRole from '../hooks/useRole';
-import LoadingSpinner from '../components/Shared/LoadingSpinner';
-import PropTypes from 'prop-types';
-import { Navigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom'
+import LoadingSpinner from '../components/Shared/LoadingSpinner'
+import useRole from '../hooks/useRole'
+import PropTypes from 'prop-types'
+const HostRoute = ({ children }) => {
+  const [role, isLoading] = useRole()
 
-const HostRoute = ({children}) => {
+  if (isLoading) return <LoadingSpinner />
+  if (role === 'Host') return children
+  return <Navigate to='/dashboard' />
+}
 
-    const {role, isLoading} = useRole();
-
-    if(isLoading) return <LoadingSpinner/>
-    if(role === 'Host') return children;
-
-    return (
-        <Navigate to="/dashboard" />
-    );
-};
-
-export default HostRoute;
+export default HostRoute
 
 HostRoute.propTypes = {
-    children: PropTypes.object
+  children: PropTypes.element,
 }
