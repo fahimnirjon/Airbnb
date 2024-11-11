@@ -2,8 +2,7 @@
 
 ### Important Links:
 
-## Topics Cov
-
+## Topics Co
 **Part 1 (17/05/2024):**
 - Introduction & Project overview.
 - Starter Template Setup
