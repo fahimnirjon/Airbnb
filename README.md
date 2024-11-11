@@ -31,7 +31,7 @@
 
 **Part 4 (28/05/2024):**
 - Payment system (Stripe).
-- Email Sending (NodeM
+- Email Sending (Node
 
 ### Packages and api docs used in this project:
 
