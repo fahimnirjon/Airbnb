@@ -32,7 +32,7 @@
 **Part 4 (28/05/2024):**
 - Payment system (Stripe).
 - Email Sending (NodeMailer).
-- Statis
+- Stati
 
 ### Packages and api docs used in this project:
 
