@@ -33,7 +33,7 @@
 - Payment system (Stripe).
 - Email Sending (NodeMailer).
 - Statistics Page in Dashboard.
-- Updat
+- Upda
 
 ### Packages and api docs used in this project:
 
