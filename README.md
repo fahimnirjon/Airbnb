@@ -29,7 +29,6 @@
 - Become a host Button functionality.
 - Booking modal and routes in dasboard.
 
-*
 
 ### Packages and api docs used in this project:
 
