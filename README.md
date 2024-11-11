@@ -12,7 +12,7 @@
 - Category Filter section in Homepage.
 - TanStack Query Implementation
 
-**Part 2 (20/05/):**
+**Part 2 (20/05):**
 - Dashboard Layout
 - Add Room Page setup and functionality implement.
 - My Listings Page setup and functionality implement.
