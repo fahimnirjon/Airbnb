@@ -40,7 +40,6 @@ const sendEmail = (emailAddress, emailData) => {
   })
 
   // verify transporter
-  // verify connection configuration
   transporter.verify(function (error, success) {
     if (error) {
       console.log(error)
@@ -475,9 +474,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Hello from StayVista Server..");
+  res.send("Hello from Airbnb Server..");
 });
 
 app.listen(port, () => {
-  console.log(`StayVista is running on port ${port}`);
+  console.log(`Airbnb is running on port ${port}`);
 });
