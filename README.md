@@ -20,7 +20,7 @@
 - Become a host api request implement.
 - Calendar issue fix in Room Details Page.
 
-**Part 3 (24/0):**
+**Part 3 (24/):**
 - useRole Hook.
 - Profile Page.
 - Manage Users Page.
