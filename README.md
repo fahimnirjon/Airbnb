@@ -27,7 +27,7 @@
 - Sidebar modifications.
 - Secure client and server routes.
 - Become a host Button functionality.
-- Booking modal and routes in dasboar
+- Booking modal and routes in dasboa
 
 
 ### Packages and api docs used in this project:
