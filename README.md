@@ -27,7 +27,7 @@
 - Sidebar modifications.
 - Secure client and server routes.
 - Become a host Button functionality.
-- Booking modal 
+- Booking modal
 
 
 ### Packages and api docs used in this project:
