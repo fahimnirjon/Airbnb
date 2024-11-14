@@ -27,7 +27,6 @@
 - Sidebar modifications.
 - Secure client and server routes.
 - Become a host Button functionality.
--
 
 
 ### Packages and api docs used in this project:
