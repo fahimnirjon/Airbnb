@@ -26,7 +26,7 @@
 - Manage Users Page.
 - Sidebar modifications.
 - Secure client and server routes.
-- Bec
+- Be
 
 ### Packages and api docs used in this project:
 
