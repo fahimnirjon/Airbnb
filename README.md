@@ -26,7 +26,7 @@
 - Manage Users Page.
 - Sidebar modifications.
 - Secure client and server routes.
-- Become a host Button functiona
+- Become a host Button function
 
 
 ### Packages and api docs used in this project:
