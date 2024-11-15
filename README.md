@@ -28,7 +28,6 @@
 - Secure client and server routes.
 - Become a host Button fu
 
-
 ### Packages and api docs used in this project:
 
 - [Stripe Website](https://stripe.com/)
