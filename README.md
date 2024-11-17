@@ -2,7 +2,7 @@ Airbnb Clone: [Live Site](https://comforth-be903.web.app/)
 
 ### Important Links:
 
-## Topics--
+## Topic
 
 **Part 1 ():**
 - Introduction & Project overview.
