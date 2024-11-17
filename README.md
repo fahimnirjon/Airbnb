@@ -25,7 +25,7 @@ Airbnb Clone: [Live Site](https://comforth-be903.web.app/)
 - Profile Page.
 - Manage Users Page.
 - Sidebar modifications.
-- Secure client and se
+- Secure client an
 
 ### Packages and api docs used in this project:
 
