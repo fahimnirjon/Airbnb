@@ -25,7 +25,7 @@
 - Profile Page.
 - Manage Users Page.
 - Sidebar modifications.
-- Secure client and server routes
+- Secure client and server rou
 
 ### Packages and api docs used in this project:
 
