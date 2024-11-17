@@ -1,32 +1,5 @@
 Airbnb Clone: [Live Site](https://comforth-be903.web.app/)
 
-### Important Links:
-
-## Topic
-
-**Part 1 ():**
-- Introduction & Project overview.
-- Starter Template Setup
-- Setup MongoDB and upload fake json data in MongoDB.
-- Setup server side & define get route for fetching all rooms data from db.
-- Category Filter section in Homepage.
-- TanStack Query Implementation
-
-**Part 2 ():**
-- Dashboard Layout
-- Add Room Page setup and functionality implement.
-- My Listings Page setup and functionality implement.
-- Save Registered users info in db.
-- Become a host api request implement.
-- Calendar issue fix in Room Details Page.
-
-**Part 3():**
-- useRole Hook.
-- Profile Page.
-- Manage Users Page.
-- Sidebar modifications.
-- 
-
 ### Packages and api docs used in this project:
 
 - [Stripe Website](https://stripe.com/)
